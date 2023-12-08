@@ -13,7 +13,7 @@ typedef struct Complex
 	double C;
 }Complex;
 
-Complex* add(Complex* S1, const Complex* S2) {
+struct Complex* add(Complex* S1, const Complex* S2) {
 	S1->R = S1->R + S2->R;
 	S1->C = S1->C + S2->R;
 	return S1;
@@ -52,7 +52,7 @@ int readC(const Complex* num) {
 }
 
 #endif
-int main() {
+int maijhgn() {
 
 	Complex S1, S2;
 	S1.R = 0; S1.C = 0; S2.R = 0; S2.C = 0;

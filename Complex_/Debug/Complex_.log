@@ -1,14 +1,2 @@
-﻿  main.c
-c:\users\st116628\source\repos\complex_\complex_\main.c(36): warning C4552: /: оператор не имеет результата; требуется оператор с побочным действием
-c:\users\st116628\source\repos\complex_\complex_\main.c(48): warning C4477: "scanf": в строке форматирования "%lf" требуется аргумент типа "double *", но вариативный аргумент "1" имеет тип "const double *"
-c:\users\st116628\source\repos\complex_\complex_\main.c(50): warning C4477: "scanf": в строке форматирования "%lf" требуется аргумент типа "double *", но вариативный аргумент "1" имеет тип "const double *"
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
-c:\users\st116628\source\repos\complex_\complex_\main.c(84): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+﻿  matrix.c
   Complex_.vcxproj -> C:\Users\st116628\source\repos\Complex_\Debug\Complex_.exe
