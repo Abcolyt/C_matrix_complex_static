@@ -1,2 +1,15 @@
 ﻿  matrix.c
-  Complex_.vcxproj -> C:\Users\st116628\source\repos\Complex_\Debug\Complex_.exe
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(194,18): error C2059: синтаксическая ошибка: )
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,20): warning C4552: "<": результат выражения не используется
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,45): error C2065: i: необъявленный идентификатор
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,47): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,21): error C2065: j: необъявленный идентификатор
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,21): warning C4552: "<": результат выражения не используется
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,42): error C2065: j: необъявленный идентификатор
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,44): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(201,2): error C2059: синтаксическая ошибка: }
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(237,10): warning C4090: return: разные квалификаторы "const"
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(242,9): warning C4047: функция: "matrix *" отличается по уровням косвенного обращения от "matrix **"
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(242,9): warning C4024: initM0: различные типы для формального и фактического параметров 1
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(243,20): warning C4047: функция: "const matrix *" отличается по уровням косвенного обращения от "matrix **"
+C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(243,20): warning C4024: scalar_M_division: различные типы для формального и фактического параметров 1
