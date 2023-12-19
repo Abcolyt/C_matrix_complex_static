@@ -15,11 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.c">
+    <ClCompile Include="complex.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="matrix.c">
+    <ClCompile Include="main_plus_matrix_statistic_complex.c">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="statistic_modul.c">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="out.txt" />
   </ItemGroup>
 </Project>

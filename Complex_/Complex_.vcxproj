@@ -116,8 +116,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="matrix.c" />
+    <ClCompile Include="complex.c" />
+    <ClCompile Include="main_plus_matrix_statistic_complex.c" />
+    <ClCompile Include="statistic_modul.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="out.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

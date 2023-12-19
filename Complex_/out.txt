@@ -1,0 +1,6 @@
+MatOgidanie rost=172.875000
+MatOgidanie ves=61.875000
+Despersion(rost)=62.109375Despersion(ves)=52.609375
+standard_deviation(rost)=7.880950
+standard_deviation(ves)=7.253232
+coef korrelatii pirsona=0.887549

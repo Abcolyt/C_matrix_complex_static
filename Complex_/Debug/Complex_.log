@@ -1,15 +1,26 @@
-﻿  matrix.c
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(194,18): error C2059: синтаксическая ошибка: )
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,20): warning C4552: "<": результат выражения не используется
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,45): error C2065: i: необъявленный идентификатор
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(195,47): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,21): error C2065: j: необъявленный идентификатор
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,21): warning C4552: "<": результат выражения не используется
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,42): error C2065: j: необъявленный идентификатор
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(197,44): error C2143: синтаксическая ошибка: отсутствие ";" перед ")"
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(201,2): error C2059: синтаксическая ошибка: }
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(237,10): warning C4090: return: разные квалификаторы "const"
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(242,9): warning C4047: функция: "matrix *" отличается по уровням косвенного обращения от "matrix **"
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(242,9): warning C4024: initM0: различные типы для формального и фактического параметров 1
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(243,20): warning C4047: функция: "const matrix *" отличается по уровням косвенного обращения от "matrix **"
-C:\Users\Пользователь\source\repos\Complex\Complex_\matrix.c(243,20): warning C4024: scalar_M_division: различные типы для формального и фактического параметров 1
+﻿  main_plus_matrix_statistic_complex.c
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(38,10): warning C4552: "/": результат выражения не используется
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(38,24): warning C4552: "/": результат выражения не используется
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(50,8): warning C4477: "scanf": в строке форматирования "%lf" требуется аргумент типа "double *", но вариативный аргумент "1" имеет тип "const double *"
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(52,8): warning C4477: "scanf": в строке форматирования "%lf" требуется аргумент типа "double *", но вариативный аргумент "1" имеет тип "const double *"
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(70,12): warning C4098: complex_calc: функция типа "void", возвращающая значение
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00EF", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00EE", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00F1", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00EB", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00E5", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00E4", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00ED", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00F7", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(85,15): warning C4566: символ, представленный универсальным именем символа "\u00E8", невозможно представить в текущей кодовой странице (1251)
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(168,16): warning C4129: D: неизвестная escape-последовательность
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(142,6): warning C4101: s: неиспользованная локальная переменная
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(179,18): warning C4101: ves_d: неиспользованная локальная переменная
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(180,8): warning C4101: r_v_c: неиспользованная локальная переменная
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(441,10): warning C4090: return: разные квалификаторы "const"
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(446,9): warning C4047: функция: "matrix *" отличается по уровням косвенного обращения от "matrix **"
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(446,9): warning C4024: initM0: различные типы для формального и фактического параметров 1
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(447,20): warning C4047: функция: "const matrix *" отличается по уровням косвенного обращения от "matrix **"
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(447,20): warning C4024: scalar_M_division: различные типы для формального и фактического параметров 1
+C:\Users\Пользователь\source\repos\Complex\Complex_\main_plus_matrix_statistic_complex.c(211): warning C4716: get_dM: должна возвращать значение
+  Complex_.vcxproj -> C:\Users\Пользователь\source\repos\Complex\Debug\Complex_.exe
