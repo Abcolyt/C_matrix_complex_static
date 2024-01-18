@@ -135,14 +135,14 @@ double KofkorPirs(double x[], double y[], int n) {
 	double std_y = sqrt((sum_y2 - 2 * mean_y * sum_y + n * mean_y * mean_y) / n);
 
 	return (n * sum_xy - sum_x * sum_y) / (sqrt((n * sum_x2 - sum_x * sum_x) * (n * sum_y2 - sum_y * sum_y)));
-}//https://wikimedia.org/api/rest_v1/media/math/render/svg/b87fab4bd95646a6aa894efe96e894761c94498f 
+}// https://wikimedia.org/api/rest_v1/media/math/render/svg/b87fab4bd95646a6aa894efe96e894761c94498f 
 
 void Static()//задание на 17,11,23
 {
 	int s, size, i = 0;
 	FILE* in, * out;
 
-	if ((in = fopen("in.txt", "r")) != NULL && NULL != (out = fopen("out.txt", "w")))
+	if (NULL!=(in = fopen("in.txt", "r"))  && NULL != (out = fopen("out.txt", "w")))
 	{
 
 		fscanf(in, "%d", &size);//читаем первое число(количество пар рост вес)
@@ -472,40 +472,74 @@ matrix* multiply_M(const matrix* const M, const matrix* const M2)//the first par
 }
 //матрицы и решение слау конец
 
+//вычисление через разложение в ряд
+double expon_x(double degree, double accuracy) {
+	double e = 1, ans = 0, n = 1;
+	
+	while (e > accuracy)
+	{
+		ans += e;
+		e *=  (degree / n); 
+		
+		n++;
+		printf("%lf\n", ans);
+	}
+	return ans;
+}
+//вычисление через разложение в ряд конец
+
+//
+
+
+//
+
+//tests, not work
+void tests() {
+
+}
+//
+
 //код ниже обеспечивает работу всего выше написанного одновременно
-enum TypeLogik
+enum TypeLogik //перечисление режимов работы)
 {
+	Test = -1,
 	CramerMatrixSolver = 0,
 	reversefinder = 1,
 	complex_calculator=2,
 	Statistc =3,
+	Exponent_calc=4
 };
 
 typedef struct TpLg
 {
 	enum TypeLogik log;
 } TpLg;
+//
 
 int main()
 {
 
 	TpLg l1;
-	printf("CramerMatrixSolver(0) or reversefinder(1) or complex_calculator(2) or Statistc(3) ?\n");
+	printf("CramerMatrixSolver(0) or reversefinder(1) or complex_calculator(2) or Statistc(3) or Exponent_calc(4) ?\n");
 	scanf("%d", &l1.log);
-	printf("%d", l1.log);
-
+	time_t beg_t=time(NULL), end_t;
+	//printf("%d\n", l1.log);
 
 
 	switch (l1.log)
 	{
+	case Test:tests(); break;
+	case Exponent_calc: printf("degree?:"); double degree; scanf("%lf", &degree); printf("%-16.15lf", expon_x(degree, 1e-6)); break;
 	case reversefinder: {
 		int size = 2;
 		printf("enter Marix size(int type ,the square matrix): ");
 		scanf("%d", &size);
+
 		matrix(a)
-			matrix(b)
-			initM0(&a, size, size);
+		matrix(b)
+		initM0(&a, size, size);
 		initM0(&b, size, size);
+
 		printf("enter matrix elements");
 		scanf_M(&a);
 		print_M(&a);
@@ -533,8 +567,9 @@ int main()
 		initM0(&b, size, size);
 		printf("enter matrix elements\n");
 		scanf_M(&a);
-		printf("+\n");
+		
 		if (det_Mn_n_recursion(&a) != 0) {
+			printf("+\n");
 			matrix(free_members);
 			initM0(&free_members, 1, size);
 			get_copy_M(&a, &b);
@@ -568,8 +603,9 @@ int main()
 
 
 
+	end_t = time(NULL);
 
-
+	printf("\nwork_time=%5.2lfsec\n",difftime(end_t,beg_t));
 	system("pause");
 	return 0;
 }
